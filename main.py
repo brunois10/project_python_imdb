@@ -12,7 +12,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 MAX_THREADS = 10
 
-## alteração
+## alteração para realizar o exercicio e comparar...
 
 
 def extract_movie_details(movie_link):
@@ -43,7 +43,7 @@ def extract_movie_details(movie_link):
                 print(title, date, rating, plot_text)
                 movie_writer.writerow([title, date, rating, plot_text])
 
-
+#### outraaa
 def extract_movies(soup):
     # aqui são configurações de hierarquia da página, do ponto de encontro do filme até sua divisão e organização em elementos.
     movies_table = soup.find('div', attrs={'data-testid': 'chart-layout-main-column'}).find('ul')
