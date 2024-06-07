@@ -12,6 +12,8 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 MAX_THREADS = 10
 
+## alteração
+
 
 def extract_movie_details(movie_link):
     time.sleep(random.uniform(0, 0.2))
